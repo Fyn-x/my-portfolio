@@ -1,0 +1,181 @@
+@media screen and (max-width: 576px) {
+  #hero h1 {
+    font-size: 1.5rem;
+  }
+  #hero h2 {
+    font-size: 1.3rem;
+  }
+  #hero p {
+    font-size: 0.7rem;
+  }
+  #hero img {
+    width: 70%;
+  }
+  .btn-custom {
+    font-size: 0.85rem;
+    min-width: 100px;
+  }
+  #about h1 {
+    font-size: 2.3rem;
+  }
+  .about-detail {
+    font-size: 1.2rem;
+  }
+  #bio {
+    font-size: 0.75rem;
+  }
+  #skill {
+    min-height: 430px;
+  }
+  #skill h1 {
+    font-size: 2.3rem;
+  }
+  #contact img {
+    width: 5%;
+  }
+}
+@media screen and (min-width: 576px) {
+  #hero h1 {
+    font-size: 1.5rem;
+  }
+  #hero h2 {
+    font-size: 1.3rem;
+  }
+  #hero p {
+    font-size: 0.7rem;
+  }
+  #hero img {
+    width: 60%;
+  }
+  .btn-custom {
+    font-size: 0.85rem;
+    min-width: 100px;
+  }
+  #about h1 {
+    font-size: 2.3rem;
+  }
+  .about-detail {
+    font-size: 1.2rem;
+  }
+  #bio {
+    font-size: 0.75rem;
+  }
+  #skill {
+    min-height: 430px;
+  }
+  #skill h1 {
+    font-size: 2.3rem;
+  }
+  #contact img {
+    width: 5%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #hero h1 {
+    font-size: 1.8rem;
+  }
+  #hero h2 {
+    font-size: 1.5rem;
+  }
+  #hero p {
+    font-size: 0.8rem;
+  }
+  #hero img {
+    width: 60%;
+  }
+  .btn-custom {
+    font-size: 1rem;
+    min-width: 130px;
+  }
+  #about h1 {
+    font-size: 2.5rem;
+  }
+  .about-detail {
+    font-size: 1.2rem;
+  }
+  #bio {
+    font-size: 0.9rem;
+  }
+  #skill {
+    min-height: 500px;
+  }
+  #skill h1 {
+    font-size: 2.5rem;
+  }
+  #contact img {
+    width: 4%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #hero h1 {
+    font-size: 1.85rem;
+  }
+  #hero h2 {
+    font-size: 1.6rem;
+  }
+  #hero p {
+    font-size: 0.9rem;
+  }
+  #hero img {
+    width: 90%;
+  }
+
+  #about h1 {
+    font-size: 3rem;
+  }
+  .about-detail {
+    font-size: 1.3rem;
+  }
+  #bio {
+    font-size: 1rem;
+  }
+  #skill {
+    min-height: 600px;
+  }
+  #skill h1 {
+    font-size: 3rem;
+  }
+  #contact img {
+    width: 3%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #hero h1 {
+    font-size: 2.2rem;
+  }
+
+  #hero h2 {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  #hero p {
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+
+  #about h1 {
+    font-size: 4rem;
+  }
+
+  .about-detail {
+    font-size: 1.5rem;
+  }
+  #bio {
+    font-size: 1.1rem;
+  }
+  #skill {
+    min-height: 600px;
+  }
+  #skill h1 {
+    font-size: 4rem;
+  }
+  #skill img {
+    width: 10%;
+  }
+  #contact img {
+    width: 3%;
+    padding: 3px;
+  }
+}

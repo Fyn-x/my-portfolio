@@ -1,0 +1,138 @@
+:root {
+  --m_yellow: #f5df4e;
+  --m_grey: #707070;
+  --m_blue: #2d4263;
+  --m_brown: #483434;
+}
+
+body {
+  min-height: 900px;
+  background-color: var(--m_blue);
+  font-family: "ubuntu", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+nav {
+  transition: 0.5s;
+}
+.bg-nav {
+  background-color: var(--m_blue);
+  z-index: 10;
+  transition: 1s;
+}
+
+.nav-link.active {
+  color: var(--m_yellow);
+  font-family: "Bubblegum Sans", cursive;
+}
+
+/* Hero Section */
+#hero {
+  min-height: 100vh;
+  color: white;
+  padding-top: 75px;
+}
+
+#hero h1 {
+  font-size: 2.2rem;
+}
+
+#hero h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+#hero p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+#hero h1 span {
+  color: var(--m_yellow);
+  font-weight: 500;
+}
+
+.btn-custom {
+  background-color: var(--m_yellow);
+  font-size: 1.2rem;
+  text-align: center;
+  min-width: 150px;
+}
+
+.btn-custom a {
+  color: var(--m_blue);
+  text-decoration: none;
+}
+
+.btn-custom a:hover {
+  color: var(--m_grey);
+  box-shadow: var(--m_blue);
+}
+/* End Hero Section */
+
+/* About Section */
+#about {
+  min-height: 50vh;
+  background-color: var(--m_yellow);
+  color: var(--m_blue);
+  font-family: "ubuntu", sans-serif;
+}
+
+#about h1 {
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 4rem;
+}
+
+#about hr {
+  opacity: 100%;
+  width: 25%;
+  height: 0.2rem;
+  margin: 0 auto;
+}
+
+.about-detail {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#bio {
+  margin-top: 120px;
+}
+/* End About Section */
+
+/* Skill Section */
+#skill {
+  min-height: 600px;
+  background-color: var(--m_grey);
+  color: var(--m_yellow);
+  font-family: "ubuntu", sans-serif;
+}
+
+#skill h1 {
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 4rem;
+}
+
+#skill hr {
+  opacity: 100%;
+  width: 25%;
+  height: 0.2rem;
+  margin: 0 auto;
+}
+
+#skill img {
+  width: 10%;
+  margin: 10px;
+}
+/* End Skill Section */
+
+/* Contact Section */
+#contact {
+  color: var(--m_yellow);
+  font-family: "Bubblegum Sans", cursive;
+}
+#contact img {
+  width: 3%;
+  padding: 3px;
+}
+/* End Contact Section */
